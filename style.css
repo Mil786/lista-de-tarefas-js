@@ -1,0 +1,56 @@
+body{
+    font-family: Arial; /* Define o estilo da letra*/
+    background-color: rgb(150, 247, 174); /* Define a cor de fundo da página*/
+    display: flex; /*Ativa o modo flexbox para organizar elementos*/
+    flex-direction: column; /* Alinha os itens um abaixo do outro*/
+    align-items: center; /*Centraliza os itens horizontalmente*/
+    padding: 50px; /*Cria um espaço interno nas bordas da página*/
+}
+
+h1{
+    font-family: Arial; /* Define o estilo da letra*/
+    color: #0b7e24; /* Cor da escrita */
+}
+
+input {
+    padding: 10px; /* Aumenta o espaço interno onde você digita*/
+    border: 1px solid #ddd; /* Cria uma borda fina e clarinha*/
+    border-radius: 5px; /* Arredonda as pontas da caixa de texto*/
+    width: 250px; /* Define a largura da caixa de texto*/
+}
+
+button{
+    padding: 10px 15px; /* Define o tamanho interno do botão*/
+    background-color: #28a745; /* Coloca cor no fundo do botão*/
+    color: white; /* Coloca cor na escrita do botão*/
+    border: none; /* Remove a borda padrão do navegador*/
+    border-radius: 5px; /* Arredonda as pontas do botão*/
+    cursor: pointer; /* Muda o mouse para a mãozinha quanod passa por cima*/
+}
+
+button:hover{ 
+    background-color: #218838; /* Escurece o verde quando o mouse enconsta no botão*/
+} 
+
+ul {
+    list-style: none; /* Remove as bolinhas padrão da lista*/
+    padding: 0; /* Tira o recuo padrão da lista*/
+    width: 320px; /* Define a largura total da lista de tarefas*/
+    margin-top: 20px; /* Dá um espaõ entre o botão e a lista*/
+}
+
+li{
+    background: white; /* Coloca fundo branco em cada tarefa*/
+    margin-bottom: 8px; /* Cria um espaço entre uma tarefa e outra*/
+    padding: 10px; /* Espaço interno para o texto não encostar a borda*/
+    display: flex; /* Organiza o texto e o botão X lado a lado*/
+    justify-content: space-between; /* Empurra o texto para a esquerda e o botão pa a direita*/
+    align-items: center; /* Alinha o texto e o botão no meio da linha*/
+    border-radius: 5px; /* Arredonda as pontas da tarefa*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Cria uma sombra suave para da profundidade*/
+}
+
+.concluida {
+    text-decoration: line-through; /* Risca o texto da tarefa*/
+    color: rgb(97, 97, 97); /* Deixa o texto cinza para parecer finalizado*/
+}
