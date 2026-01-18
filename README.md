@@ -20,7 +20,7 @@ Este é o meu segundo projeto de estudo em desenvolvimento web. É uma lista de 
 
 ## 🔗 Demonstração
 Você pode testar o projeto online clicando no link abaixo:
-👉 [COLE_AQUI_O_SEU_LINK_DO_GITHUB_PAGES]
+👉 https://mil786.github.io/lista-de-tarefas-js/
 
 ---
 *Projeto desenvolvido para fins de estudo e portfólio.*
